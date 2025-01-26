@@ -5,8 +5,11 @@ import { Link } from 'expo-router'
 const signin = () => {
   return (
     <View style={styles.container}>
-      <Link href="/6dashboard" style={{ color: 'blue' }}>Exit</Link>
-      <Image source={require('../assets/images/11.png')} style={styles.image} />
+      <Link href="/12lbm" style={{ color: 'blue' }}>Land Border Migration</Link>
+      <Link href="/13mwo" style={{ color: 'blue' }}>Migrate Workers and Opportunities</Link>
+      <Link href="/14sa" style={{ color: 'blue' }}>Studying Abroad</Link>
+      <Link href="/6dashboard" style={{ color: 'blue' }}>Return</Link>
+      <Image source={require('../assets/images/Ways to Migrate (2).png')} style={styles.image} />
     </View>
   )
 }

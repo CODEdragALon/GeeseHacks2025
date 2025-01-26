@@ -1,12 +1,12 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, Text, View, Image } from 'react-native'
 import React from 'react'
 import { Link } from 'expo-router'
 
 const help = () => {
   return (
-    <View>
-      <Text>help</Text>
-      <Link href="/5slide" style={{ color: 'blue' }}>Slide</Link>
+    <View style={styles.container}>
+      <Link href="/" style={{ color: 'blue' }}>To Be Continued</Link>
+      <Image source={require('../assets/images/4.png')} style={styles.image} />
     </View>
   )
 }
@@ -19,5 +19,10 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  image: {
+    width: 200,
+    height: 200,
+    resizeMode: 'contain',
   },
 })

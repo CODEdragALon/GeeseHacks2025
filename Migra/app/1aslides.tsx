@@ -2,16 +2,16 @@ import { StyleSheet, Text, View, Image } from 'react-native'
 import React from 'react'
 import { Link } from 'expo-router'
 
-const signin = () => {
+const slidea = () => {
   return (
     <View style={styles.container}>
-      <Link href="/6dashboard" style={{ color: 'blue' }}>Exit</Link>
-      <Image source={require('../assets/images/11.png')} style={styles.image} />
+      <Link href="/1bslide" style={{ color: 'blue' }}>Continue</Link>
+      <Image source={require('../assets/images/5.png')} style={styles.image} />
     </View>
   )
 }
 
-export default signin
+export default slidea
 
 const styles = StyleSheet.create({
   container: {
